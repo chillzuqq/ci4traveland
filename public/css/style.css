@@ -1,0 +1,29 @@
+/*Google-font*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap');
+
+:root {
+  --font: 'Arimo', sans-serif;
+  --font-header-weight: 500;
+  --font-body-weight: 400;
+}
+
+nav {
+  font-family: var(--font);
+  font-weight: var(--font-header-weight);
+}
+
+body {
+  font-family: var(--font);
+  font-weight: var(--font-body-weight);
+}
+
+.img-sz {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.img-det-sz {
+  width: 35vw;
+  height: 25vw;
+  object-fit: cover;
+}
